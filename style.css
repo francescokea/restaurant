@@ -1,0 +1,170 @@
+body {
+    background-color: #121212;
+    margin: 0;
+}
+
+
+    #menu-grid {
+        display: grid;
+        margin: 15px;
+        grid-template-areas: "card1 card2"
+                             "card3 card4";
+    } 
+
+
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 0px;
+}
+
+#top-bar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    background-color: #ffffff17;
+}
+
+#season-menu {
+    margin: 30px;
+    margin-bottom: 0px;
+
+}
+
+.card1 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: card1;
+    background-color: #ffffff16;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card2 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: card2;
+    background-color: #ffffff16;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card3 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: card3;
+    background-color: #ffffff16;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card4 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: card4;
+    background-color: #ffffff16;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+#nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #ffffff16;
+}
+
+
+
+a {
+    padding: 15px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+#plus {
+    width: 50px;
+    height: 50px;
+    background-color: turquoise;
+    border-radius: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plus-text {
+    font-size: xx-large;
+}
+
+#info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr;
+    grid-template-areas: "organic price"
+                         "availability .";
+}
+
+#organic {
+    margin: 1vw;
+    display: flex;
+    grid-area: organic;
+    background-color: yellowgreen;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#price {
+    margin: 1vw;
+    display: flex;
+    grid-area: price;
+    background-color: tomato;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#availability {
+    margin: 1vw;
+    display: flex;
+    grid-area: availability;
+    background-color: thistle;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
